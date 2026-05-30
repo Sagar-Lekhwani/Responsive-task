@@ -1,18 +1,12 @@
-# 🚀 A5 Assignment - Landing Page Development
+# 🚀 A6 Assignment - Responsive Website Landing Page
 
-This repository contains the successful completion of **A5 Assignment** provided in the **Cohort 3.0 Batch**.
+This repository contains the successful completion of **A6 Assignment** provided in the **Cohort 3.0 Batch**.
 
-In this assignment, 3 different landing page designs were provided based on difficulty levels:
+The objective of this assignment was to recreate a **full website landing page** and make it completely **responsive** across different screen sizes and devices.
 
-- 🟢 Easy Landing Page
-- 🟡 Medium Landing Page
-- 🔴 Hard Landing Page
+This assignment helped in improving responsive web design skills and understanding how modern websites adapt to multiple screen resolutions using CSS techniques.
 
-I chose the **Hard Level Landing Page** challenge and completed it successfully.
-
-The assignment was focused on recreating a professional landing page design using proper frontend structuring and styling techniques.
-
-This project is also a part of my journey of rebuilding development skills from **Basics → Advanced** through continuous practice and project building.
+This project is also a part of my continuous journey of rebuilding development skills from **Basics → Advanced** through practical assignments and consistent learning.
 
 ---
 
@@ -20,14 +14,15 @@ This project is also a part of my journey of rebuilding development skills from 
 
 The assignment focused on:
 
-- Landing Page Development
-- UI Recreation
+- Responsive Web Design
+- Full Landing Page Development
+- Mobile Responsive Layouts
+- CSS Media Queries
 - Layout Structuring
-- CSS Positioning
-- Design Accuracy
+- UI Recreation
 - Clean Code Practices
 
-The selected hard-level landing page was recreated successfully using HTML and CSS.
+The complete landing page was recreated successfully using HTML and CSS with responsiveness implemented for multiple devices.
 
 ---
 
@@ -35,35 +30,45 @@ The selected hard-level landing page was recreated successfully using HTML and C
 
 - HTML5
 - CSS3
+- Media Queries
 
 ---
 
 # 🎯 Goals Achieved
 
-- Successfully completed the hard-level landing page
-- Improved frontend layout understanding
-- Practiced real-world website UI recreation
-- Strengthened CSS styling concepts
+- Successfully completed the full landing page
+- Implemented responsive layouts
+- Improved frontend structuring skills
+- Practiced mobile-first responsiveness
+- Strengthened CSS concepts
 - Focused on clean and maintainable code
 
 ---
 
-# 📷 Landing Page Preview
+# 📷 Website Preview
 
 ## 🎨 Original Website Reference
 
-[🔗 View Original Website Design](https://ayush-ahirwar-12.github.io/Oliv-Responsive-Branding-Agency-Landing-Page/)
+[🔗 View Original Website Design](https://your-reference-website-link.com)
+
+> Replace the above link with the original website/task reference link.
+
+---
+
+## 🖼️ Recreated Responsive Landing Page
+
+![Responsive Landing Page](./preview.png)
 
 ---
 
 # 📚 Learning Journey
 
-This repository is part of my continuous learning journey to master frontend and full stack development step by step through practical assignments and projects.
+This repository is part of my continuous learning journey to master frontend and full stack development through practical assignments and real project building.
 
 Roadmap includes:
 
 - HTML & CSS Mastery
-- Advanced CSS Layouts
+- Responsive Web Design
 - JavaScript Deep Dive
 - React & Next.js
 - Backend Development
@@ -74,9 +79,10 @@ Roadmap includes:
 
 # ✅ Status
 
-✔ A5 Assignment Completed Successfully  
-✔ Hard Level Landing Page Finished  
+✔ A6 Assignment Completed Successfully  
+✔ Responsive Landing Page Finished  
 ✔ Code Uploaded to GitHub  
+✔ Responsive Design Implemented  
 ✔ Learning Journey Continues...
 
 ---
