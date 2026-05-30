@@ -640,6 +640,268 @@ body{
     transform:scale(1.05);
 }
 
+
+.tea-reviews-section{
+    width:100%;
+    min-height:100vh;
+
+    background:#f3f0e6;
+
+    padding:120px 0;
+}
+
+/* TOP */
+
+.tea-reviews-top{
+    width:67%;
+    margin:auto;
+}
+
+.tea-review-tag{
+    padding:12px 22px;
+
+    border-radius:10px;
+    border:2px solid #222;
+
+    background:#73c414;
+
+    font-size:2rem;
+    font-weight:900;
+
+    rotate:-2deg;
+
+    margin-bottom:50px;
+
+    cursor:pointer;
+}
+
+.tea-reviews-top h1{
+    font-size:2.9rem;
+    line-height:1.1;
+
+    font-weight:100;
+
+    color:#1f1b18;
+
+    font-family:Georgia, serif;
+}
+
+.tea-reviews-top h1 span{
+    font-style:italic;
+}
+
+/* CARDS */
+
+.tea-review-cards{
+    width:100%;
+
+    display:flex;
+    gap:25px;
+
+    overflow-x:hidden;
+
+    padding:150px 10px;
+
+    scrollbar-width:none;
+}
+
+.tea-review-cards::-webkit-scrollbar{
+    display:none;
+}
+
+.tea-review-card{
+    width:250px;
+    min-width:280px;
+
+    height:410px;
+
+    border:1px solid #222;
+    border-radius:18px;
+
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    overflow:hidden;
+
+    flex-shrink:0;
+
+    padding:0;
+}
+
+/* COLORS */
+
+.tea-peach-card{
+    background:#e8a782;
+}
+
+.tea-green-card{
+    background:#a7d46f;
+}
+
+.tea-yellow-card{
+    background:#f0cb63;
+}
+
+.tea-purple-card{
+    background: rgb(217, 194, 255);
+}
+
+/* REVIEW CONTENT */
+
+.tea-review-content{
+    width:100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 5px;
+}
+
+.tea-review-content h2{
+    font-size:1.24rem;
+    line-height:1.35;
+
+    font-weight:250;
+
+    color:#111;
+
+    font-family:Georgia, serif;
+}
+
+.tea-review-content p{
+    margin-top:35px;
+
+    font-size:.9rem;
+
+    color:#6d625c;
+}
+
+/* PRODUCT BAR */
+
+.tea-product-bar{
+    width:92%;
+    height:90px;
+
+    margin:0 auto 15px auto;
+
+    border-radius:18px;
+    border:1px solid #222;
+
+    display:flex;
+    align-items:center;
+
+    overflow:hidden;
+}
+
+/* BAR COLORS */
+
+.tea-orange-bar{
+    background:#ea6d3e;
+}
+
+.tea-green-bar{
+    background:#7dc81c;
+}
+
+.tea-yellow-bar{
+    background:#ffbf00;
+}
+
+.tea-purple-bar{
+    background: rgb(199,144,219);
+}
+
+/* LEFT */
+
+.tea-product-left{
+    width:65px;
+    height:100%;
+
+    border-right:1px solid #222;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.tea-product-left img{
+    width:65%;
+    height:65%;
+    object-fit:contain;
+}
+
+/* CENTER */
+
+.tea-product-center{
+  width: 50%;
+    flex:1;
+
+    padding-left:18px;
+
+    font-size:.95rem;
+    line-height:1.1;
+
+    font-weight:500;
+
+    color:#111;
+
+    font-family:monospace;
+}
+
+/* BUTTON */
+
+.tea-product-bar button{
+    width:70px;
+    height:65px;
+
+    margin-right:12px;
+
+    border-radius:30px;
+    border:1px solid #222;
+
+    background:white;
+
+    font-size:1rem;
+
+    cursor:pointer;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .tea-reviews-top{
+        width:90%;
+    }
+
+    .tea-review-tag{
+        font-size:2rem;
+    }
+
+    .tea-reviews-top h1{
+        font-size:3rem;
+    }
+
+    .tea-review-card{
+        min-width:300px;
+        height:620px;
+    }
+
+    .tea-review-content h2{
+        font-size:2rem;
+    }
+
+    .tea-product-center{
+        font-size:1rem;
+    }
+
+}
+
 /* RESPONSIVE */
 
 @media(max-width:768px){
